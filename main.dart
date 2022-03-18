@@ -17,4 +17,14 @@ void main(List<String> args) {
   String name = "Lakshit";
   print("$name scored $marks marks"); //string interpolation
 
+  // data types
+  int num = 7;
+  double dec = 34.24;
+  String greeting = "Hello";
+  bool ans = true;
+  print("num = $num");
+  print("greeting = "+greeting);
+  print("decimal = "+dec.toString());
+  print("answer = $ans");
+
 }
