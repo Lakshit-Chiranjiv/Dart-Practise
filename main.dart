@@ -31,4 +31,16 @@ void main(List<String> args) {
   int wgt = 60;
   print('type is ${wgt.runtimeType}');
 
+  //some string functions and properties
+  String team = 'Chennai Super Kings';
+  String status = "the Champions";
+  print(team.substring(0,7));
+  print(team.length);
+  print(team.isEmpty);
+  print(team.contains("Kings"));
+  print(team.indexOf("Sup"));
+  String teamStatus = team+status;
+  print(teamStatus);
+  List wrds = team.split(" ");//list data type....its a collection
+  print(wrds);
 }
