@@ -43,4 +43,11 @@ void main(List<String> args) {
   print(teamStatus);
   List wrds = team.split(" ");//list data type....its a collection
   print(wrds);
+
+  //const keyword
+  const int value = 90;
+  print(value);
+  // value = 77; this can't be done as its a const so its value can't be changed
+
+  
 }
