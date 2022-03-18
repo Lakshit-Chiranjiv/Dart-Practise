@@ -49,5 +49,11 @@ void main(List<String> args) {
   print(value);
   // value = 77; this can't be done as its a const so its value can't be changed
 
-  
+  //var keyword
+  var someNum = 65;
+  var someName = "Thomas Shelby";
+  var someDec = 66.23;
+  var someBool = false;
+  print("$someNum,$someName,$someDec,$someBool");
+  print("${someNum.runtimeType},${someName.runtimeType},${someDec.runtimeType},${someBool.runtimeType}");
 }
