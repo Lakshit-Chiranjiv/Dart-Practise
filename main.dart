@@ -27,4 +27,8 @@ void main(List<String> args) {
   print("decimal = "+dec.toString());
   print("answer = $ans");
 
+  //type check using runtimeType
+  int wgt = 60;
+  print('type is ${wgt.runtimeType}');
+
 }
