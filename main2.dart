@@ -1,4 +1,4 @@
-
+import 'dart:collection';
 enum subjects{
   Maths,
   History,
@@ -30,5 +30,16 @@ void main(List<String> args) {
   print(nums);
   print(nums.remove(4));
   print(nums);
+
+  //queue
+  Queue<int> qnums = new Queue();
+  qnums.add(6);
+  qnums.add(4);
+  qnums.add(9);
+  qnums.add(2);
+  print(qnums);
+  qnums.removeFirst();
+  qnums.removeLast();
+  print(qnums);
 
 }
