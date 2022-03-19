@@ -20,5 +20,15 @@ void main(List<String> args) {
   names[1] = 'Henry';
   print(names);
 
+  //sets
+  Set<int> nums = new Set();
+  nums.add(4);
+  nums.add(2);
+  nums.add(7);
+  nums.add(7);
+  nums.add(4);
+  print(nums);
+  print(nums.remove(4));
+  print(nums);
 
 }
