@@ -42,4 +42,16 @@ void main(List<String> args) {
   qnums.removeLast();
   print(qnums);
 
+  //maps
+  Map mp = new Map();
+  mp.putIfAbsent('sensei', () => 'Kakashi');
+  mp.putIfAbsent('memb_1', () => 'Naruto');
+  mp.putIfAbsent('memb_2', () => 'Sasuke');
+  mp.putIfAbsent('memb_3', () => 'Trash');
+  print(mp);
+  Map mp2 = {'sensei': 'Asuma','memb_1':'Shikamaru','memb_2':'Choji','memb_3':'Ino'};
+  print(mp2);
+  print(mp['sensei']);
+  print(mp2['sensei']);
+
 }
