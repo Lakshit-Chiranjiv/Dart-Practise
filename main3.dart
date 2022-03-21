@@ -39,4 +39,9 @@ void main(List<String> args) {
       print('above 40s');
   }
 
+  //for loop
+  for (var i = 0; i < 5; i++) {
+    print('value is $i');
+  }
+
 }
