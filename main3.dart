@@ -55,4 +55,11 @@ void main(List<String> args) {
     print('$element is leaf village hokage');
   });
 
+  //while loop
+  int a = 1;
+  while (a < 5) {
+    print("Hello $a time");
+    a++;
+  }
+
 }
