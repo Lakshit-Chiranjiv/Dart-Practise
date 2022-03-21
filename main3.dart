@@ -16,4 +16,27 @@ void main(List<String> args) {
     print('equal');
   }
 
+  //switch-case
+  int num = 40;
+  switch (num) {
+    case 10:
+      print('num is 10');
+      break;
+
+    case 20:
+      print('num is 20');
+      break;
+
+    case 30:
+      print('num is 30');
+      break;
+
+    case 40:
+      print('num is 40');
+      break;
+
+    default:
+      print('above 40s');
+  }
+
 }
