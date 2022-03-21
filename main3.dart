@@ -62,4 +62,11 @@ void main(List<String> args) {
     a++;
   }
 
+  //do-while loop
+  int b = 5;
+  do {
+    print("Do hello $b time");
+    b++;
+  } while (b < 5);
+
 }
