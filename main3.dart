@@ -43,5 +43,11 @@ void main(List<String> args) {
   for (var i = 0; i < 5; i++) {
     print('value is $i');
   }
+  
+  //for in loop
+  var items = ['Hashirama','Tobirama','Hiruzen','Minato','Tsunade','Kakashi','Naruto'];
+  for (var item in items) {
+    print('$item is current hokage');
+  }
 
 }
