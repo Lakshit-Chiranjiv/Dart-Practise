@@ -50,4 +50,9 @@ void main(List<String> args) {
     print('$item is current hokage');
   }
 
+  //forEach loop
+  items.forEach((element) {
+    print('$element is leaf village hokage');
+  });
+
 }
