@@ -17,6 +17,14 @@ void main(List<String> args) {
 
   var totalPriceFunc = totalPrice; 
   totalPriceFunc(tax: 30,basePrice: 700);
+
+  someFn("Pokemon");
+  print("product is ${someVal(5,8)}");
+
+  List cities = ['Chennai','Mumbai','Kolkata','Delhi','Banglore'];
+  cities.forEach((city) { print("$city has an IPL team");});
+  var filterCities = cities.where((city) => (city != 'Mumbai'));
+  print(filterCities);
 }
 
 //normal functions
@@ -63,3 +71,10 @@ void displayResult({marks,graceMarks}){
 void totalPrice({basePrice,tax}){
   print("Total price is ${basePrice+tax}");
 }
+
+
+//anonymous functions
+var someFn = (value){print("My value is $value");};
+var someVal = (a,b)=>(a*b);
+
+
