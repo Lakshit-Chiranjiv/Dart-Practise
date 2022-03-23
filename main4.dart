@@ -14,6 +14,9 @@ void main(List<String> args) {
   showFullName();
   displayResult(marks: 60,graceMarks: 10);
   displayResult(graceMarks: 5,marks: 20);
+
+  var totalPriceFunc = totalPrice; 
+  totalPriceFunc(tax: 30,basePrice: 700);
 }
 
 //normal functions
@@ -54,4 +57,9 @@ void displayResult({marks,graceMarks}){
     print("Pass");
   else
     print("Fail");
+}
+
+//functions as objects
+void totalPrice({basePrice,tax}){
+  print("Total price is ${basePrice+tax}");
 }
