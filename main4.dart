@@ -9,6 +9,11 @@ void main(List<String> args) {
   printFileName();
   print(sumAll(5, 2,8));
   print(sumAll(6,2));
+
+  showFullName(lname: "Watson",fname: "John");
+  showFullName();
+  displayResult(marks: 60,graceMarks: 10);
+  displayResult(graceMarks: 5,marks: 20);
 }
 
 //normal functions
@@ -37,4 +42,16 @@ void printFileName([String fname='test.txt']){
 }
 int sumAll(int a,int b,[int c = 0]){//optional arguments come at the last in declaration or definition
   return a+b+c;
+}
+
+//named params 
+void showFullName({String fname: "Sherlock",String lname: "Holmes"}){
+  print("Your full name is $fname $lname");
+}
+
+void displayResult({marks,graceMarks}){
+  if(marks+graceMarks > 40)
+    print("Pass");
+  else
+    print("Fail");
 }
